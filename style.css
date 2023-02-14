@@ -60,6 +60,7 @@
         background-color: #2a3a45;
         opacity: 0.8;
         color: var(--text);
+        flex-wrap: wrap;
     }
 
     .mn {
@@ -136,11 +137,33 @@
         text-decoration: underline #6E838A;
     }
 
-    @media (max-width: 575.98px) { 
+    @media (max-width: 765px) { 
         .mid-col {
         height: 300px;
     } 
         .mid2-col {
             height: 180px;
+            margin-top: 50px;
     }
 }
+
+    .logo2 > img {
+      width: 100px;
+      height: 100px;
+    }
+
+    .img-size > img {
+      width: 500px;
+    }
+
+    .img-size2 > img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .img-size3 > img {
+      width: 315px;
+      height: 281px;
+    }
+
+  
